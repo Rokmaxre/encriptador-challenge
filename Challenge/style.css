@@ -1,0 +1,96 @@
+*{
+    font-family: "inter";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    background-color: #F3F5FC;
+    overflow-y: hidden;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 90px;
+    margin-left: 20px;
+
+}
+
+.ingreso{
+    float: left;
+    /*border: 2px dashed gray;*/
+    align-items: center;
+    padding: 40px 20px 180px 20px;
+    width: 55%;
+    margin: 1% 0 0 8%;
+}
+#frase{
+    color: #0A3871;
+    text-transform: lowercase;
+    resize: none;
+    outline: none;
+}
+.aqui,.cifra{
+    width: 80%;
+    padding: 0 0 10%;
+    border: none;
+    background-color: #F3F5FC;
+    font-size: 30px;
+}::placeholder{
+    color: #0A3871;
+    .aqui:focus{
+        outline: none;
+    }
+}
+.caja{
+    float: right;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 98px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+.lupa{   
+    width: 100%;
+    font-size: 24px;
+}
+
+.alerta{
+    font-size: 10px;
+}
+
+.alerta::before{
+    content: "⚠";
+}
+.boton{
+    width: 328px;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid;
+    border-radius: 24px;
+    cursor: pointer;
+    transition:0s;
+}
+
+#encriptar,#copiado{
+    background-color: #0A3871;
+    color: #D8DFE8;
+    
+}
+
+#desencriptar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+
+}
+ /* Comienza edicion Css home */
+
+ .boton:hover{
+  transform: scale(.9);
+ }
+ 
